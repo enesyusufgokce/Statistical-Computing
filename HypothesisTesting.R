@@ -17,7 +17,7 @@ plot(density(grade1))
 # mantığı:
 # H0: Veriler normal dağılıma sahiptir.  hep
 # H1: Veriler normal dağılıma sahip değildir. hep
-# p-value yorumlama: Eğer p > 0.05 ise: H0 reddedilemez. Yani verilerin normal dağıldığını kabul ederiz.
+# p-value yorumlama: Eğer p > 0.05 ise: H0 reddedilemez. Yani verilerin normal dağıldığını kabul ederiz (it doesn't mean that we accept H0).
 # Eğer p < 0.05 ise: H0 reddedilir.Verilerinizin normal dağılımdan anlamlı şekilde saptığı sonucuna varırız.
 shapiro.test(grade1)
 
